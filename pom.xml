@@ -24,6 +24,7 @@
     <spring.boot.version>3.2.1</spring.boot.version>
     <lombok.version>1.18.30</lombok.version>
     <reactor.test.version>3.6.2</reactor.test.version>
+    <springdoc-openapi-starter.version>2.3.0</springdoc-openapi-starter.version>
   </properties>
 
 
@@ -72,6 +73,21 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <dependency>
+        <groupId>org.springdoc</groupId>
+        <artifactId>springdoc-openapi-starter-common</artifactId>
+        <version>${springdoc-openapi-starter.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.springdoc</groupId>
+        <artifactId>springdoc-openapi-starter-webflux-ui</artifactId>
+        <version>${springdoc-openapi-starter.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 

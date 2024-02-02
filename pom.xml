@@ -27,6 +27,7 @@
     <springdoc-openapi-starter.version>2.3.0</springdoc-openapi-starter.version>
     <mapstruct.version>1.5.5.Final</mapstruct.version>
     <testcontainers.version>1.15.2</testcontainers.version>
+    <spring-cloud.version>2023.0.0</spring-cloud.version>
   </properties>
 
 
@@ -100,6 +101,13 @@
         <artifactId>testcontainers-bom</artifactId>
         <version>${testcontainers.version}</version>
         <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>

@@ -38,6 +38,7 @@
     <module>recommendation-service</module>
     <module>review-service</module>
     <module>util</module>
+    <module>spring-cloud-eureka-server</module>
   </modules>
 
   <dependencyManagement>
